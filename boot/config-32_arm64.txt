@@ -65,11 +65,11 @@ hdmi_mode=87
 hdmi_cvt=640 480 60 1 0 0 0
 
 disable_overscan=1
-
-disable_splash=1
+# Tell firmware to go 64bit mode.
+arm_64bit=1
 dtparam=spi=on
 avoid_warnings=1
-
+disable_splash=1
 [pi2]
 # Pi2 is 64bit only on v1.2+
 # 64bit kernel for Raspberry Pi 2 is called kernel8 (armv8a)
