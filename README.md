@@ -43,7 +43,7 @@ git Game-HAT-MOD
 Install Game-HAT-MOD via curl Install Game-HAT-MOD via wget 
 
 
-     $ sh -c "$(curl -fsSL https://raw.github.com/D3vD3m0n/Game-HAT-MOD/master/tools/install.sh)"
+     $ sh -c "$(curl -fsSL https://raw.github.com/D3vD3m0n/Game-HAT-MOD/master/install/install.sh)"
      
 
 
