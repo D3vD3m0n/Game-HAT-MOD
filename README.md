@@ -1,4 +1,4 @@
-# Game-HAT-MOD Waveshare Game HAT Pi Expansions (base: Game-HAT-180720)
+# Game-HAT-MOD Waveshare Game HAT Pi Expansions
 [![Solid00](https://gamehat.de/wp-content/uploads/sites/3/2018/10/cropped-Game-Hat-Schmal.png)](https://github.com/D3vD3m0n/)| 
 # Expansions Repo for Waveshare Game HAT
 
