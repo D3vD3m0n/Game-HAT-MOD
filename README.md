@@ -25,6 +25,8 @@
 </ul>
 </li>
 
+---
+
 git Game-HAT-MOD
 
      sudo rm -rf Game-HAT-MOD
