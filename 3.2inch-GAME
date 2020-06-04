@@ -1,0 +1,32 @@
+sudo apt-get install xserver-xorg-input-evdev
+sudo cp -rf /usr/share/X11/xorg.conf.d/10-evdev.conf /usr/share/X11/xorg.conf.d/45-evdev.conf
+sudo dpkg -i -B ./xinput-calibrator_0.7.5-1_armhf.deb
+
+sudo cp -rf ./etc/X11/xorg.conf.d/99-calibration.conf-32  /usr/share/X11/xorg.conf.d/99-calibration.conf
+sudo cp ./boot/config-32.txt /boot/config.txt
+
+sudo cp ./waveshare32b-overlay.dtb /boot/overlays/waveshare32b.dtbo
+sudo cp ./waveshare32b-overlay.dtb /boot/overlays/
+sudo cp -rf ./usr/share/X11/xorg.conf.d/99-fbturbo.conf  /usr/share/X11/xorg.conf.d/
+sudo cp ./inittab /etc/
+sudo cp ./cmdline.txt /boot/
+
+sudo apt-get install cmake -y
+cd ./rpi-fbcp/build/
+sudo cmake ..
+sudo make
+sudo install fbcp /usr/local/bin/fbcp
+cd ../../
+
+sudo cp -rf ./etc/rc.local-gpio /etc/rc.local
+
+sudo mkdir /usr/src/mk_arcade_joystick_rpi-0.1.5/
+sudo cp -a ./mk_arcade_joystick_rpi-master/* /usr/src/mk_arcade_joystick_rpi-0.1.5/
+export MKVERSION=0.1.5
+sudo -E dkms build -m mk_arcade_joystick_rpi -v 0.1.5
+sudo -E dkms install -m mk_arcade_joystick_rpi -v 0.1.5
+sudo cp -rf ./modules /etc/modules
+sudo cp -rf ./joystick.conf /etc/modprobe.d/
+sudo cp -rf ./nes /home/pi/RetroPie/roms/
+#sudo cp -rf ./config.txt /boot/config.txt
+sudo reboot
