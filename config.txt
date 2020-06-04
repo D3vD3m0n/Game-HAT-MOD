@@ -1,6 +1,17 @@
-# For more options and information see
-# http://rpf.io/configtxt
-# Some settings may impact device functionality. See link above for details
+#---------------------------------------------------------------------#
+#                               )                    *       ) (      #
+# (                          ( /(  (      *   )    (  `   ( /( )\ )   #
+# )\ )      )    )     (     )\()) )\   ` )  /(    )\))(  )\()|()/(   #
+#(()/(   ( /(   (     ))\ __((_)((((_)(  ( )(_))__((_)()\((_)\ /(_))  #
+# /(_))_ )(_))  )\  '/((_)___|((_)\ _ )\(_(_())___(_()((_) ((_|_))_   #
+#(_)) __((_)_ _((_))(_))    | || (_)_\(_)_   _|   |  \/  |/ _ \|   \  #
+#  | (_ / _` | '  \() -_)   | __ |/ _ \   | |     | |\/| | (_) | |) | #
+#   \___\__,_|_|_|_|\___|   |_||_/_/ \_\  |_|     |_|  |_|\___/|___/  #
+#---------------------------------------------------------------------#
+#                       +-+-+-+-+-+-+-+-+-+-+-+                       #
+#                       |b|y|D|e|m|o|n|W|a|r|e|                       #
+#                       +-+-+-+-+-+-+-+-+-+-+-+                       #
+#---------------------------------------------------------------------#
 #hdmi_safe=1 #uncomment if you get no picture on HDMI for a default "safe" mode
 #disable_overscan=1#if your display has a black border of unused pixels visible and your display can output without overscan
 # uncomment the following to adjust overscan. Use positive numbers if console
