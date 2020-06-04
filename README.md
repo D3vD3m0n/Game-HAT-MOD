@@ -25,7 +25,22 @@
 </ul>
 </li>
 
+git Game-HAT-MOD
 
+     sudo rm -rf Game-HAT-MOD
+     sudo git clone https://github.com/D3vD3m0n/Game-HAT-MOD.git
+     sudo chmod -R 755 Game-HAT-MOD
+     cd Game-HAT-MOD/
+   
+     sudo ./configure
+     sudo make
+     sudo make install
+
+Install Game-HAT-MOD via curl Install Game-HAT-MOD via wget 
+
+
+     $ sh -c "$(curl -fsSL https://raw.github.com/D3vD3m0n/Game-HAT-MOD/master/tools/install.sh)"
+     
 
 
 [![Solid00](https://raspberry-valley.azurewebsites.net/img/raspibanner.jpg)](https://github.com/D3vD3m0n/)| 
