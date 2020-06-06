@@ -35,12 +35,12 @@ gpu_mem_512=256
 gpu_mem_1024=256
 overscan_scale=1
 hdmi_force_hotplug=1
+disable_overscan=1
 
 # Enable Display (loads snd_bcm2835)
 hdmi_group=2
 hdmi_mode=87
-hdmi_cvt=640 480 60 1 0 0 0
-disable_overscan=1
+hdmi_cvt 640 480 60 1 0 0 0
 
 [pi2]
 # Pi2 is 64bit only on v1.2+
