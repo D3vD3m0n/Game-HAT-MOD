@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name="DemonWare"
+Description=DemonWare Boot animation
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/DemonWare/animation
+ScriptFile=/usr/share/plymouth/themes/DemonWare/animated-boot.script
