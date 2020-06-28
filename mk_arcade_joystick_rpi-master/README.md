@@ -1,4 +1,8 @@
 # mk_arcade_joystick_rpi #
+---
+[![Solid00](../install/images/Game-HAT-Key-intro.jpg)](https://github.com/D3vD3m0n/)
+
+---
 
 The Raspberry Pi GPIO Joystick Driver
 

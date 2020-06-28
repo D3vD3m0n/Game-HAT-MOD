@@ -45,6 +45,8 @@ Install Game-HAT-MOD via curl Install Game-HAT-MOD via wget
 
      $ sh -c "$(curl -fsSL https://raw.github.com/D3vD3m0n/Game-HAT-MOD/master/install/install.sh)"
      
+[![Solid00](./install/images/Game-HAT-Key-intro.jpg)](https://github.com/D3vD3m0n/)
+
 
 
 [![Solid00](https://raspberry-valley.azurewebsites.net/img/raspibanner.jpg)](https://github.com/D3vD3m0n/)
