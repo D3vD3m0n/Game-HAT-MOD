@@ -289,6 +289,26 @@ I tested up to 3 joystick, one on GPIOs, one on a MCP23017 on address 0x20, one 
 sudo modprobe mk_arcade_joystick_rpi map=1,0x20,0x24
 ```
 
+### mk_arcade_joystick_rpi + Samba aktivieren
+
+sudo /home/pi/RetroPie-Setup/retropie_setup.sh
+/ Manage Packages
+/ driver (manage driver packages)
+/ 818 mkarcadejoystick
+/ binary (or so) install
+/ go back
+/ Configuration / Tools
+/ x830 samba
+/ Install Retropie samba shares
+/ exit
+
+     sudo nano /etc/modprobe.d/mk_arcade_joystick_rpi.conf
+/ insert: options mk_arcade_joystick_rpi map=5 gpio=5,6,13,19,21,4,26,12,23,20,16,18
+/ save: Strg + X, Y, Enter
+
+     sudo reboot
+     
+
 
 ## Known Bugs ##
 If you try to read or write on i2c with a tool like i2cget or i2cset when the driver is loaded, you are gonna have a bad time... 
